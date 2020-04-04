@@ -1,0 +1,139 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+p {
+  color: #8f8f8f;
+  font-family: "montserrat";
+
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  position: absolute;
+   width: 60%;
+   transform: rotate(23deg);
+}
+body {
+  font-family: "Montserrat";
+}
+.font-img {
+  font-size: 4rem;
+  color: #ef8172;
+  padding-bottom: 12px;
+}
+.head-features {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.para-features {
+  color: #8f8f8f;
+  width: 70%;
+}
+.font-img:hover {
+  color: #ff4c68;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#features{
+  position: relative;
+  z-index: 1  ;
+  background-color: #ffff ;
+  padding:  10% 15%;
+}
+.header {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.1rem;
+  line-height: 1.5;
+}
+/* testimonial section */
+ #testimonials {
+   text-align: center;
+   background-color: #ef8172;
+   color: #ffff;
+
+ }
+ h2 {
+   font-size: 3rem;
+   line-height: 1.5;
+   font-family: "Montserrat";
+   font-weight: bold;
+ }
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* call to action */
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 13%;
+  color: #ffff;
+}
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+.social-icon {
+  font-size: 1rem;
+  padding: 25px 10px;
+}
